@@ -5,7 +5,7 @@ module.exports = ({ config }) => {
   const development = !['preview', 'production'].includes(process.env.APP_ENV)
   return {
     ...config,
-    name: development ? 'Surabhi Dev' : 'Surabhi',
+    name: development ? 'Surabhi Nagar Dev' : 'Surabhi Nagar Residents Association',
     scheme: development ? 'opensociety-dev' : 'opensociety',
     ios: {
       ...config.ios,

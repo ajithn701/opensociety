@@ -20,14 +20,17 @@ function App() {
   return (
     <div className="bg-background text-foreground min-h-screen">
       <header className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <span className="text-lg font-bold tracking-tight">Surabhi</span>
+        <div className="flex items-center gap-3">
+          <img src="/logo192.png" alt="" className="size-10 rounded-lg" />
+          <span className="text-base font-bold tracking-tight">Surabhi Nagar Residents Association</span>
+        </div>
         <ThemeToggle />
       </header>
 
       <section className="px-6 py-16 text-center">
         <div className="mx-auto max-w-3xl">
-          <h1 className="text-5xl font-black tracking-tight md:text-6xl">
-            <span className="text-cyan-500 dark:text-cyan-400">Surabhi</span>
+          <h1 className="text-3xl font-black tracking-tight md:text-6xl">
+            <span className="text-cyan-500 dark:text-cyan-400">Surabhi Nagar Residents Association</span>
           </h1>
           <p className="text-muted-foreground mt-4 text-xl">Privacy-first society management platform</p>
           <p className="text-muted-foreground mx-auto mt-3 max-w-2xl">

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'expo-router'
-import { Pressable, ScrollView, View, useWindowDimensions } from 'react-native'
+import { Image, Pressable, ScrollView, View, useWindowDimensions } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 
 import { AuthStatus, CLERK_ENABLED } from '../components/auth-status'
@@ -73,10 +73,14 @@ export default function Index() {
     <SafeAreaView style={{ flex: 1, backgroundColor: palette.background }}>
       <ScrollView contentContainerClassName="gap-7 p-5 pb-8" showsVerticalScrollIndicator={false}>
         <View className="flex-row items-center gap-2.5 pt-2">
-          <View className="h-9 w-9 items-center justify-center rounded-full bg-primary">
-            <Icon name="home" size={18} color="#FFFFFF" />
-          </View>
-          <Text className="text-base font-semibold tracking-tight">Surabhi</Text>
+          <Image
+            source={require('../assets/association-logo.png')}
+            accessibilityLabel="Surabhi Nagar Residents Association"
+            className="h-10 w-10 rounded-lg"
+          />
+          <Text className="flex-1 text-base font-semibold tracking-tight">
+            Surabhi Nagar Residents Association
+          </Text>
         </View>
         <View className="gap-3">
           <Text role="heading" className="text-[36px] font-bold leading-[43px] tracking-tight">

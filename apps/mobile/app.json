@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Surabhi",
+    "name": "Surabhi Nagar Residents Association",
     "slug": "opensociety",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -12,7 +12,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#234F40",
+        "backgroundColor": "#FFFFFF",
         "monochromeImage": "./assets/monochrome-icon.png"
       },
       "predictiveBackGestureEnabled": false
@@ -24,7 +24,7 @@
       [
         "expo-camera",
         {
-          "cameraPermission": "Allow Surabhi to use the camera to scan visitor pre-approval QR codes at the gate.",
+          "cameraPermission": "Allow Surabhi Nagar Residents Association to use the camera to scan visitor pre-approval QR codes at the gate.",
           "recordAudioAndroid": false,
           "microphonePermission": false
         }
@@ -37,7 +37,7 @@
         {
           "image": "./assets/splash-icon.png",
           "resizeMode": "contain",
-          "backgroundColor": "#F6F7F2",
+          "backgroundColor": "#FFFFFF",
           "imageWidth": 160
         }
       ],
@@ -46,7 +46,7 @@
         "expo-notifications",
         {
           "icon": "./assets/notification-icon.png",
-          "color": "#234F40"
+          "color": "#0B469F"
         }
       ]
     ],
