@@ -43,7 +43,7 @@ export function PushProvider({ children }: { children: ReactNode }) {
       setStatus('busy')
       try {
         if (Platform.OS === 'android') {
-          await Notifications.setNotificationChannelAsync('default', { name: 'OpenSociety', importance: Notifications.AndroidImportance.HIGH })
+          await Notifications.setNotificationChannelAsync('default', { name: 'Surabhi', importance: Notifications.AndroidImportance.HIGH })
         }
         let permission = await Notifications.getPermissionsAsync()
         if (!permission.granted && prompt && permission.canAskAgain) permission = await Notifications.requestPermissionsAsync()

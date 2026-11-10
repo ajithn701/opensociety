@@ -76,7 +76,7 @@ export default function Index() {
           <View className="h-9 w-9 items-center justify-center rounded-full bg-primary">
             <Icon name="home" size={18} color="#FFFFFF" />
           </View>
-          <Text className="text-base font-semibold tracking-tight">OpenSociety</Text>
+          <Text className="text-base font-semibold tracking-tight">Surabhi</Text>
         </View>
         <View className="gap-3">
           <Text role="heading" className="text-[36px] font-bold leading-[43px] tracking-tight">

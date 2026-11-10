@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "OpenSociety",
+    "name": "Surabhi",
     "slug": "opensociety",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -24,7 +24,7 @@
       [
         "expo-camera",
         {
-          "cameraPermission": "Allow OpenSociety to use the camera to scan visitor pre-approval QR codes at the gate.",
+          "cameraPermission": "Allow Surabhi to use the camera to scan visitor pre-approval QR codes at the gate.",
           "recordAudioAndroid": false,
           "microphonePermission": false
         }
